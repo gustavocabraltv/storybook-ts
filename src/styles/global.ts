@@ -17,11 +17,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 
-  h1 {
-      font-family: Roboto;
-      font-weight: 100;
-      color: red;
-  }
 
 
 `
