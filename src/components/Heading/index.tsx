@@ -2,11 +2,11 @@ import * as S from './styles'
 
 export type HeadingProps = { 
   children: React.ReactNode,
-  color?: "blue" | "black"
+  color?: "primary" | "secondary"
  
 }
 
-const Heading = ({children, color = 'blue'}: HeadingProps) => (
+const Heading = ({children, color = 'primary'}: HeadingProps) => (
   <S.Wrapper color={color}>
   <h1> {children}</h1>
   </S.Wrapper>

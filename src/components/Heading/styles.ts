@@ -6,9 +6,9 @@ import { HeadingProps } from '.'
 
 export const Wrapper = styled.h2<HeadingProps>`
 
-${({ theme }) => css`
+${({ theme,color }) => css`
 
-color: ${theme.colors.primary}
+color: ${theme.colors[color!]}
 `
 
 }
