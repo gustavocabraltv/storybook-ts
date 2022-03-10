@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+
   * {
     margin: 0;
     padding: 0;
@@ -13,8 +14,18 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;
   }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
+
+  h1 {
+      font-family: Roboto;
+      font-weight: 100;
+      color: red;
+  }
+
+
 `
+
+
 
 export default GlobalStyles
