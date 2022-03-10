@@ -5,12 +5,11 @@ import { HeadingProps } from '.'
 
 
 export const Wrapper = styled.h2<HeadingProps>`
-  ${({ theme, color}) => css`
 
-   
-    ${media.greaterThan('medium')`
-        color: ${[color]};
-    `}
-    
-  `}
+${({ theme }) => css`
+
+color: ${theme.colors.primary}
+`
+
+}
 `
