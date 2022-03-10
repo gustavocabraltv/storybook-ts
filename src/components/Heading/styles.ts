@@ -1,3 +1,16 @@
-import styled from 'styled-components'
+import styled, {css} from 'styled-components'
+import media from 'styled-media-query'
+import { HeadingProps } from '.'
 
-export const Wrapper = styled.main``
+
+
+export const Wrapper = styled.h2<HeadingProps>`
+  ${({ theme, color}) => css`
+
+   
+    ${media.greaterThan('medium')`
+        color: ${[color]};
+    `}
+    
+  `}
+`
