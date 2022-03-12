@@ -19,6 +19,10 @@ const GlobalStyles = createGlobalStyle`
   button {
     border: none;
   }
+  span { 
+    font-family: Roboto;
+    font-weight: 600;
+  }
 
 
 

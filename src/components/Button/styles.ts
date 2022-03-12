@@ -31,7 +31,7 @@ const wrapperModifiers = {
 
 export const Wrapper = styled.button<WrapperProps>`
 
-  ${({theme,size, fullWidth}) => css`
+  ${({theme, size, fullWidth}) => css`
  // display: flex;
  //  align-items: center;
  //  justify-content: center;
